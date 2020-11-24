@@ -1,0 +1,8 @@
+#include<stdio.h>
+void main()
+{short int a,b,sum;
+a=32767;b=32768;
+sum=a+b;
+printf("a=%d,b=%d\n",a,b);
+printf("sum=%d\n",sum);
+}
