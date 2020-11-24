@@ -1,0 +1,44 @@
+#include<stdio.h>
+void main()
+{ int x,y,z;
+float x1,y1,z1;
+x=123;y=0123;z=0x123;
+printf("x=%d,y=%d,z=%d\n",x,y,z);
+x1=123.456;y1=.123;z1=0.123e-4;
+printf("x1=%f,y1=%f,z1=%f\n",x1,y1,z1);
+}
+
+
+#include<stdio.h>
+void main()
+{char c1,c2;
+int i1,i2;
+unsigned u1,u2;
+     c1='a';
+     c2=c1-32;
+     printf("%c,%c,%d,%d\n",c1,c2,c1,c2);
+     c1='\176';c2='\376';
+     i1=c1;i2=c2;
+     u1='\176';u2='\376';
+     printf("%d,%d,%u,%u\n",i1,i2,u1,u2);
+}
+
+
+#include<stdio.h>
+void main()
+{ short int a,b;
+  unsigned  c,d;
+  long e,f;
+  a=100;b=-100;e=50000;f=32767;
+  c=a;d=b;
+  printf("%d,%d\n",a,b);
+  printf("%u,%u\n",a,b);
+  printf("%u,%u\n",a,b);
+  c=a=e;
+  d=b=f;
+  printf("%d,%d\n",a,b);
+  printf("%u,%u\n",a,b); 
+}
+
+
+
